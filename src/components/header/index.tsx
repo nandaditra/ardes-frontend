@@ -13,6 +13,9 @@ const Header = () => {
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="ms-auto navbar-nav">
                 <li className="nav-item">
+                   <Link className="nav-link active" to={"/portofolio"}>Portofolio</Link>
+                </li>
+                <li className="nav-item">
                    <Link className="nav-link active" to={"/login"}>Login</Link>
                 </li>
                 <li className="nav-item">
